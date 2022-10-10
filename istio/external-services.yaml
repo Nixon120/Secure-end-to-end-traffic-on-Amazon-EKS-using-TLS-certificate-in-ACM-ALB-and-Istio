@@ -2,10 +2,10 @@
 apiVersion: networking.istio.io/v1beta1
 kind: ServiceEntry
 metadata:
-  name: www.themealdb.com
+  name: www.restauhire.link
 spec:
   hosts:
-    - "www.themealdb.com"
+    - "www.restauhire.link"
   ports:
     - number: 80
       name: http
